@@ -29,7 +29,7 @@ for i,v in next, game:GetService("LogService"):GetHttpResultHistory() do
     local url = unescape(v.URL)
     if url:find("https://ecsv2.roblox.com/pe") then 
         pcall(function() -- what on earth have i created here
-            print(url)
+            --print(url)
             local cpu = url:split("cpu=")[2]:split("placeid=")[1]:split("  ")[1]
             specs.cpu = cpu
             local gpu = url:split("gpu_info=")[2]:split("&gpu_memMB=vid: ")
