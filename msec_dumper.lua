@@ -1,3 +1,5 @@
+--// Made by mistercoolertyper#6969 | all credits to him.
+
 local function dump(script, options)
     options = options or {}
     for i,v in next, options do
